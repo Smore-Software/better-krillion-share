@@ -49,9 +49,9 @@ Unofficial and fan-made. Not affiliated with or endorsed by Krillion.
 | Small promo tile (440×280) | `store/promo-440x280.png` (rendered from `store/promo-tile.html`) |
 | Marquee (1400×560) | Optional. Only needed for a featured placement. |
 
-**Homepage URL:** `https://github.com/calebdinsmore/better-krillion-share`
+**Homepage URL:** `https://github.com/Smore-Software/better-krillion-share`
 
-**Support URL:** `https://github.com/calebdinsmore/better-krillion-share/issues`
+**Support URL:** `https://github.com/Smore-Software/better-krillion-share/issues`
 
 **Mature content:** No
 
@@ -80,7 +80,7 @@ Then tick all three certifications:
 - I do not use or transfer user data for purposes that are unrelated to my item's single purpose.
 - I do not use or transfer user data to determine creditworthiness or for lending purposes.
 
-**Privacy policy URL:** `https://github.com/calebdinsmore/better-krillion-share/blob/main/PRIVACY.md`. This URL only works once `PRIVACY.md` is pushed.
+**Privacy policy URL:** `https://github.com/Smore-Software/better-krillion-share/blob/main/PRIVACY.md`
 
 ## Distribution
 

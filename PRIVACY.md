@@ -20,4 +20,4 @@ Text and images leave the page only when you click a button. **Copy** puts them 
 
 ## Contact
 
-Open an issue at <https://github.com/calebdinsmore/better-krillion-share/issues>.
+Open an issue at <https://github.com/Smore-Software/better-krillion-share/issues>.
