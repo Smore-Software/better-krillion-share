@@ -1,0 +1,29 @@
+# Browser profiles used for agent-browser testing (cookies, site state).
+# The trailing * also covers temporary copies made for extension runs.
+.browser-profile*/
+
+# Recon material: third-party site bundle, API dumps (today's answers),
+# page snapshots, screenshots, and personal game state. Only the notes are tracked.
+reference/*
+!reference/NOTES.md
+
+# Extension packaging. Never commit the .pem signing key.
+*.crx
+*.pem
+*.zip
+dist/
+
+# Node, in case tooling gets added later
+node_modules/
+npm-debug.log*
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local env
+.env
+.env.*

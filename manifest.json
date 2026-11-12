@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Krillion Share Kit",
+  "version": "0.1.0",
+  "description": "Richer sharing for Krillion's daily dive: answers, questions, percentile, spoiler tags and a shareable image card.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://krillion.io/*"],
+      "js": ["src/share-text.js", "src/dive-data.js", "src/card.js", "src/panel.js", "src/content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
