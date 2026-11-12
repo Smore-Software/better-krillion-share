@@ -1,0 +1,56 @@
+<!doctype html>
+<!-- Source for promo-440x280.png. Render at a 440x280 viewport and screenshot. -->
+<html>
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=block" rel="stylesheet">
+<style>
+  html, body { margin: 0; width: 440px; height: 280px; overflow: hidden; }
+  body {
+    font-family: 'VT323', monospace;
+    color: #e8f1ff;
+    background:
+      radial-gradient(120% 90% at 78% 0%, #1d3a63 0%, transparent 60%),
+      linear-gradient(180deg, #13284a 0%, #0a1527 55%, #050a14 100%);
+    position: relative;
+  }
+  /* light shafts */
+  .shaft { position: absolute; top: -40px; width: 46px; height: 380px; background: linear-gradient(180deg, #4de3ff22, transparent 75%); transform: rotate(18deg); }
+  /* marine snow */
+  .snow { position: absolute; width: 2px; height: 2px; background: #c6d5ec; opacity: .45; }
+  /* scanlines */
+  body::after { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(180deg, #00000022 0 1px, transparent 1px 3px); pointer-events: none; }
+  .wrap { position: absolute; inset: 0; display: flex; align-items: center; gap: 22px; padding: 0 34px; }
+  .icon { width: 112px; height: 112px; image-rendering: pixelated; flex: none; filter: drop-shadow(0 0 14px #4de3ff55); }
+  h1 { margin: 0; font-size: 62px; line-height: .86; letter-spacing: 2px; font-weight: 400; text-shadow: 2px 0 #ff5d8f88, -2px 0 #4de3ff88; }
+  .for { font-size: 25px; letter-spacing: 3px; color: #7d93b8; margin: 6px 0 14px; }
+  .for b { color: #4de3ff; font-weight: 400; }
+  .tags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tag { font-size: 18px; letter-spacing: 1.5px; padding: 1px 7px 0; border: 2px solid #1b2c47; background: #0b1730; color: #dbe5f5; }
+  .tag.pink { border-color: #ff5d8f; color: #ff5d8f; }
+  .tag.cyan { border-color: #4de3ff; color: #4de3ff; }
+  .tag.gold { border-color: #ffd166; color: #ffd166; }
+</style>
+</head>
+<body>
+  <div class="shaft" style="left:250px"></div>
+  <div class="shaft" style="left:330px; width:28px; opacity:.7"></div>
+  <div class="shaft" style="left:395px; width:18px; opacity:.5"></div>
+  <div class="snow" style="left:40px;top:30px"></div><div class="snow" style="left:300px;top:60px"></div>
+  <div class="snow" style="left:410px;top:220px"></div><div class="snow" style="left:180px;top:250px"></div>
+  <div class="snow" style="left:95px;top:205px"></div><div class="snow" style="left:360px;top:150px"></div>
+  <div class="snow" style="left:230px;top:22px"></div><div class="snow" style="left:20px;top:150px"></div>
+  <div class="wrap">
+    <img class="icon" src="../icons/icon-128.png" alt="">
+    <div>
+      <h1>SHARE<br>KIT</h1>
+      <div class="for">for <b>KRILLION</b></div>
+      <div class="tags">
+        <span class="tag pink">ANSWERS</span>
+        <span class="tag cyan">SPOILERS</span>
+        <span class="tag gold">IMAGE CARD</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

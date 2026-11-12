@@ -1,0 +1,14 @@
+{
+  "name": "better-krillion-share",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chrome extension that adds richer sharing to Krillion's daily dive results.",
+  "scripts": {
+    "test": "node --test test/",
+    "icons": "node scripts/make-icons.js",
+    "package": "npm test && node scripts/package.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
